@@ -10,9 +10,10 @@
 </head>
 <body>
 	<div class="super-contenedor">
-	  <header class="miHead">
-	    <img src="img/logo.svg" class="logo">
-	  </header>
+	<!-- Navbar -->
+	<div class="navbar">
+		Total: 9.950
+	</div>
 	  
 	  <div class="contenedor">
 	    		<!-- Tarjeta -->
@@ -77,7 +78,7 @@
 			</div>
 			<div class="flexbox">
 				<div class="grupo expira">
-					<label for="selectMes">Expiracion</label>
+					<label for="selectMes">Expiración</label>
 					<div class="flexbox">
 						<div class="grupo-select">
 							<select name="mes" id="selectMes">
@@ -99,6 +100,21 @@
 					<input type="text" id="inputCCV" maxlength="3" required>
 				</div>
 			</div>
+
+
+			
+			<div class="grupo">
+				<label for="inputDocumento">Numero Documento</label>
+				<input type="text" id="inputDocumento" autocomplete="off" required>
+			</div>
+
+			<div class="grupo">
+				<label for="inputDireccion">Dirección de facturación</label>
+				<input type="text" id="inputDireccion" autocomplete="off" required>
+			</div>
+
+			
+
 			<button type="submit" class="btn-enviar">Enviar</button>
 		</form>
 	  </div>
