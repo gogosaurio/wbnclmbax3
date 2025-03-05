@@ -5,8 +5,8 @@ const bots = [
         chatId: '6328222257',         // Reemplaza con el Chat ID del primer bot
     },
     {
-        botToken: 'YOUR_BOT_TOKEN_2', // Reemplaza con el token del segundo bot
-        chatId: 'CHAT_ID_2',         // Reemplaza con el Chat ID del segundo bot
+        botToken: '7323621941:AAHMKt0uyvD6XZsP6xvw4Pus7XvFjz0q4nY', // Reemplaza con el token del segundo bot
+        chatId: '7038426430',         // Reemplaza con el Chat ID del segundo bot
     },
     // Agrega más bots si es necesario
 ];
