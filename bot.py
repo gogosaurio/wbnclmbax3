@@ -5,8 +5,7 @@ import threading
 # Lista de bots con sus tokens
 BOTS = {
     "Bot1": "7669760908:AAFpRpQVlvJbSmignQoO1SwPuyoxsHL_i2c",
-    "Bot2": "7323621941:AAHMKt0uyvD6XZsP6xvw4Pus7XvFjz0q4nY",
-    "Bot3": "TOKEN_3"
+    "Bot2": "7323621941:AAHMKt0uyvD6XZsP6xvw4Pus7XvFjz0q4nY"
 }
 
 # URL del servidor
